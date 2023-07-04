@@ -1,0 +1,449 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+
+    background-color: black;
+    color: white;
+}
+
+/* paraghraph */
+p{
+    font-family: "open sans";
+    font-size: 20px;
+}
+/* very imp */
+
+
+
+/* name of secyion */
+
+
+.nameofsection{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* ************* */
+.header{
+display: flex;
+gap: 20vw;
+
+
+}
+.anime{
+    content: "";
+}
+.anime::after{
+    content: " ";
+    animation: animate 3s infinite ease-in-out ;
+    animation-fill-mode: none; 
+    /* Hello, i'm Ahmad */
+}
+    @keyframes animate {
+
+        0% {
+            content: "W|";
+        }
+
+        8% {
+            content: "WE|";
+        }
+
+        16% {
+            content: "WEL|";
+        }
+        24%{
+            content: "WELC|";
+
+        }
+        32%{
+            content: "WELCO|";
+
+        }
+        40%{
+            content: "WELCOM|";
+
+        }
+        48%{
+            content: "WELCOME|";
+
+        }
+        56%{
+            content: "WELCOME |";
+
+        }
+        64%{
+            content: "WELCOME H|";
+
+        }
+        72%{
+            content: "WELCOME HE|";
+
+        }
+        80%{
+            content: "WELCOME HER|";
+
+        }
+        100%{
+            content: "WELCOME HERE|";
+
+        }
+       
+    }
+
+
+
+nav ul {
+list-style: none;
+    display: flex;
+    gap: 50px;
+     margin: 0 30px 0 30px;
+     margin-top: 30px ;
+
+
+}
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+     }
+
+    
+
+     #firstbutton{
+        background-color: red;
+        padding: 5px 20px 5px 20px; 
+    margin-top: -4px; 
+    text-decoration: none;
+   }
+    #firstbutton:hover{
+        background-color: goldenrod;
+        border: red;
+        transition: 0.4s;
+
+    }
+.logo{
+
+    width: 178px;
+    height: 80px;
+    margin: 0 30px 0 30px;
+
+}
+
+.headsection{
+    
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+    
+}
+
+.text{
+   margin-left: 60px;
+    font-size: larger;
+}
+
+.welcome{
+
+    margin-left: 35px;
+}
+
+.welcome span{
+    color: red; 
+}
+
+
+
+#myphoto{
+    margin: -10px 0 0 194px;
+    border-radius: 55%;
+}
+
+
+/* EDU //////////////////// */
+
+.edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50vh;
+
+    /* margin-left:55px ; */
+}
+.edu div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.edu div img{
+    margin: 0;
+}
+.label{
+    
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+.schools{
+  width: 30%;
+}
+.schools img{
+    border-radius: 50%;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.University{
+    width: 30%;
+
+}
+
+.University img{
+    border-radius: 50%;
+    width: 30%;
+    margin-top: 50px;
+
+}
+
+.University2{
+    width: 30%;
+
+}
+
+
+
+.University2 img{
+    border-radius: 50%;
+    width: 30%;
+    margin-top: 50px;
+
+}
+
+
+
+
+.year{
+    font-family: 'Graduate';
+font-size: 35px;
+color: red;
+    
+}
+    
+.typeuni{
+    font-family:'Open Sans';
+    font-size: 25px;
+    color: white;
+
+}
+
+.description{
+
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 15px;
+
+
+}
+
+    /* Experience */
+
+    .Experience{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* margin-left:55px ; */
+    }
+    
+    
+    .careem{
+
+        width: 45%;
+        
+    }
+
+    .careem img{
+        border-radius: 90%;
+    width: 45%;
+    margin-top: 50px;
+    }
+
+    .workdate{
+        font-family: "Fredoka";
+        font-size: large;
+        color: white;
+
+    }
+    .cremcolor{
+        color: rgb(42, 161, 42);
+        font-style: bold;
+    }
+
+
+    .freelancee{
+        width: 35%;
+  
+    }
+
+    .freelancee img{
+        border-radius: 50%;
+        width: 35%;
+        margin-top: 50px;
+    }
+
+    /* skills&lag */
+
+    .skills{
+display: flex;
+justify-content: space-around;
+    }
+.ssskills{
+    size: 20px;
+    list-style-type: square; 
+    color: white;
+}
+.nameofheadsection{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.languages{
+display: flex;
+
+justify-content: center;
+gap: 10rem;
+ }
+
+
+  
+
+.bar{
+    width: 250px;
+    height: 15px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+}
+.progress1{
+    width: 90%;
+    height: 3px;
+    background-color: white;
+    /* justify-content: flex-start; */
+
+}
+
+
+.progress2{
+    width: 75%;
+    height: 3px;
+    background-color: white;
+    /* justify-content: flex-start; */
+
+}
+
+.progress3{
+    width: 60%;
+    height: 3px;
+    background-color: white;
+    /* justify-content: flex-start; */
+
+}
+
+
+
+.langliststyle{
+    
+    list-style-type: none; 
+}
+
+
+.nameofpro{
+    font-family: 'Graduate';
+    color: red;
+
+}
+.project{
+display: flex;
+justify-content: space-around;
+}
+
+
+.project1{
+    width: 30%;
+}
+
+
+/* refffff */
+.Reference{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nameofcotch{ 
+    font-family: 'Graduate';
+color: red;
+}
+.photocotch{
+border-radius: 50%;
+margin: 20px;
+width: 300px;
+height: 300 px;
+}
+
+.introduction{
+    width: 60%;
+}
+.introduction p{
+    font-size: 20px;
+}
+
+.fa-brands{
+font-size: 100px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 30vw 40vw auto ;
+    grid-template-rows: 40vh;
+}
+footer .left img{
+width: 80%;
+}
+footer .center{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+footer .links{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 2vh;
+}
+footer .icons{
+    margin-top: 50px;
+    display: flex;
+    gap: 2rem;
+}
+footer .icons i{
+    font-size: 50px;
+}
